@@ -21,31 +21,10 @@ Government-ID-Classifier/
 ├── testing.py            # Testing script for inference and evaluation
 ├── requirements.txt      # Project dependencies
 ├── models/               # Directory to save trained weights
-├── training_data/        # Training dataset (Roboflow export)
+├── training_data/        # Training dataset 
 ├── validation_data/      # Validation dataset
 └── testing_data/         # Testing dataset
 ```
-
----
-
-## ⚙️ Setup & Installation
-
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/krishdef7/Government-ID-Classifier.git
-   cd Government-ID-Classifier
-   ```
-
-2. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Prepare dataset**  
-   - Download dataset from [Roboflow](https://roboflow.com).  
-   - Place images inside `training_data/`, `validation_data/`, and `testing_data/` folders.  
-
----
 
 ## 🏋️ Training
 
@@ -85,7 +64,6 @@ python testing.py
 - Example evaluation snippet:
   ```
   ✅ Overall Test Accuracy: 97.00%
-  ❌ No of errors = 12/400
   ```
 
 ---
